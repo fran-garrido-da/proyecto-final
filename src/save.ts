@@ -4,7 +4,7 @@ import { catalog } from './catalog'
 export const SAVE_VERSION = 1
 
 /** Offline progress is capped at this many seconds (8 hours; a tunable constant, not spec behavior). */
-export const OFFLINE_CAP_SECONDS = 8 * 60 * 60
+export const OFFLINE_CAP_SECONDS = 8 * 3600
 
 export interface SavePayload {
   version: number
